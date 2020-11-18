@@ -4,5 +4,6 @@
     <SelectedDevice>10.1_WXGA_Tablet_API_27</SelectedDevice>
     <DefaultDevice>10.1_WXGA_Tablet_API_27</DefaultDevice>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
   </PropertyGroup>
 </Project>
