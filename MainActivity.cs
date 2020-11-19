@@ -4,12 +4,28 @@ using Android.Support.V7.App;
 using Android.Runtime;
 using Android.Widget;
 using Android.Content;
+using Gbot_XamarinAndroid.SAT;
+using System;
 
 namespace Gbot_XamarinAndroid
 {
     [Activity(Label = "@string/app_name", Theme = "@style/Theme.AppCompat.Light.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
+        public static string Model = Build.Model;
+        public static string PLATAFORMA = "Xamarin Android";
+        public const string VERSION = "1.0.0";
+
+        public const string GLASS_MODEL = "A112";
+
+        public TextView txtProject;
+
+        public static string getVersion()
+        {
+            return PLATAFORMA + " - " + VERSION + " - " + Model;
+        }
+
+        
         private Context context;
         private ListView lv;
         private ProjetoAdapter adapter;
@@ -31,6 +47,9 @@ namespace Gbot_XamarinAndroid
             adapter = new ProjetoAdapter(this, GetProjetos());
             lv.Adapter = adapter;
             lv.ItemClick += Lv_ItemClick;
+
+            txtProject = FindViewById<TextView>(Resource.Id.txtNameProject);
+            txtProject.Text = getVersion();
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
@@ -56,9 +75,14 @@ namespace Gbot_XamarinAndroid
                     //GoToActivity(typeof(Nfc));
                     break;
                 case "SAT":
-                    //GoToActivity(typeof(MenuSat));
+                    GoToActivity(typeof(MenuSat));
                     break;
             }
+        }
+
+        public void GoToActivity(Type myActivity)
+        {
+            StartActivity(myActivity);
         }
 
         private JavaList<Projeto> GetProjetos()
@@ -72,7 +96,13 @@ namespace Gbot_XamarinAndroid
             proj = new Projeto("NFC - NDEF", Resource.Drawable.nfc2);
             projetos.Add(proj);
 
+            proj = new Projeto("Sensor de Presença", Resource.Drawable.sensor);
+            projetos.Add(proj);
+
             proj = new Projeto("FALA G-Bot", Resource.Drawable.speaker);
+            projetos.Add(proj);
+
+            proj = new Projeto("Modo Quiosque", Resource.Drawable.kiosk);
             projetos.Add(proj);
 
             proj = new Projeto("Tef", Resource.Drawable.pos);

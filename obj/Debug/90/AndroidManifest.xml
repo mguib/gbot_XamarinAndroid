@@ -11,6 +11,14 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="Tef" android:name="crc644aaa2ebaabd2d6a5.Tef" />
+    <activity android:label="MenuSat" android:name="crc64856beb8d5544869a.MenuSat" />
+    <activity android:label="alterar" android:name="crc64787ad53d6e92e92d.Alterar" />
+    <activity android:label="Associar" android:name="crc64787ad53d6e92e92d.Associar" />
+    <activity android:label="Ativacao" android:name="crc64787ad53d6e92e92d.Ativacao" />
+    <activity android:label="Ferramentas" android:name="crc64787ad53d6e92e92d.Ferramentas" />
+    <activity android:label="Rede" android:name="crc64787ad53d6e92e92d.Rede" />
+    <activity android:label="Teste" android:name="crc64787ad53d6e92e92d.Teste" />
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" />

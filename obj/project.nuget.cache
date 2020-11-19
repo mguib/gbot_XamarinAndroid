@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L/6Mke7r7e2rnpyN4aL8b6hvAtQ1QMFZM8GtC6Nt/8f9zecg2o9l4SJSJGCrWO1ixUNktVXBxJ+gIKNHkU9Dig==",
+  "dgSpecHash": "daUhNfHzqO6Hf7vtIKvQhB5p1Io8x093JGacK/1EABlf98xFPFMQX5I0zNQm7HZuxW8HOHmQMfKMZMVKhFChNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marcosGuibson\\Downloads\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
+  "projectFilePath": "C:\\Projetos\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcosGuibson\\Downloads\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj": {}
+    "C:\\Projetos\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcosGuibson\\Downloads\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj": {
+    "C:\\Projetos\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcosGuibson\\Downloads\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
+        "projectUniqueName": "C:\\Projetos\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
         "projectName": "Gbot_XamarinAndroid",
-        "projectPath": "C:\\Users\\marcosGuibson\\Downloads\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
+        "projectPath": "C:\\Projetos\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
         "packagesPath": "C:\\Users\\marcosGuibson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcosGuibson\\Downloads\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid\\obj\\",
+        "outputPath": "C:\\Projetos\\Gbot_XamarinAndroid\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
