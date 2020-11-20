@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Properties",
+    "\\Resources",
+    "\\Resources\\layout"
   ],
+  "SelectedNode": "\\Gbot_XamarinAndroid.csproj",
   "PreviewInSolutionExplorer": false
 }
