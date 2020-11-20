@@ -3,6 +3,10 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Gbot_XamarinAndroid.dll" comes first in this list. */
 		"Gbot_XamarinAndroid.dll",
+		"EDMTBinding.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.DeviceInfo.dll",
+		"SatLib.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -24,6 +28,8 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.DocumentFile.dll",
 		"Xamarin.Android.Support.DrawerLayout.dll",
+		"Xamarin.Android.Support.Emoji.AppCompat.dll",
+		"Xamarin.Android.Support.Emoji.dll",
 		"Xamarin.Android.Support.Fragment.dll",
 		"Xamarin.Android.Support.Interpolator.dll",
 		"Xamarin.Android.Support.Loader.dll",
@@ -56,6 +62,8 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.CustomView.dll",
 		"Xamarin.AndroidX.DocumentFile.dll",
 		"Xamarin.AndroidX.DrawerLayout.dll",
+		"Xamarin.AndroidX.Emoji.AppCompat.dll",
+		"Xamarin.AndroidX.Emoji.dll",
 		"Xamarin.AndroidX.Fragment.dll",
 		"Xamarin.AndroidX.Interpolator.dll",
 		"Xamarin.AndroidX.Legacy.Support.Core.UI.dll",

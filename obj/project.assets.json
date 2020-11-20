@@ -2,6 +2,42 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
+      "Dexter/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/monoandroid81/EDMTBinding.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/EDMTBinding.dll": {}
+        }
+      },
+      "Plugin.CurrentActivity/2.1.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        }
+      },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.CurrentActivity": "2.1.0.4"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid71/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid71/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
         "type": "package",
         "dependencies": {
@@ -420,6 +456,43 @@
         },
         "build": {
           "build/monoandroid90/Xamarin.Android.Support.DrawerLayout.targets": {}
+        }
+      },
+      "Xamarin.Android.Support.Emoji/28.0.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Compat": "[28.0.0.3]"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.Android.Support.Emoji.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.Android.Support.Emoji.dll": {}
+        },
+        "build": {
+          "build/monoandroid90/Xamarin.Android.Support.Emoji.targets": {}
+        }
+      },
+      "Xamarin.Android.Support.Emoji.AppCompat/28.0.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Emoji": "[28.0.0.3]",
+          "Xamarin.Android.Support.v7.AppCompat": "[28.0.0.3]"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.Android.Support.Emoji.AppCompat.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.Android.Support.Emoji.AppCompat.dll": {}
+        },
+        "build": {
+          "build/monoandroid90/Xamarin.Android.Support.Emoji.AppCompat.targets": {}
         }
       },
       "Xamarin.Android.Support.Fragment/28.0.0.3": {
@@ -1049,6 +1122,43 @@
           "buildTransitive/monoandroid90/Xamarin.AndroidX.DrawerLayout.targets": {}
         }
       },
+      "Xamarin.AndroidX.Emoji/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Core": "1.3.2"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Emoji.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Emoji.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Emoji.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Emoji.AppCompat/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.AppCompat": "1.2.0.5",
+          "Xamarin.AndroidX.Emoji": "1.1.0"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Emoji.AppCompat.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Emoji.AppCompat.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Emoji.AppCompat.targets": {}
+        }
+      },
       "Xamarin.AndroidX.Fragment/1.2.5.3": {
         "type": "package",
         "dependencies": {
@@ -1613,6 +1723,66 @@
     }
   },
   "libraries": {
+    "Dexter/1.0.3": {
+      "sha512": "5jaIa63snHSN891NAgRR8vKw1VrrKeyblE/MuEjXvi+m8eVe6OfKY5m8krHrNUpq+PaQa7jQ1uqOKJIdjdv8AQ==",
+      "type": "package",
+      "path": "dexter/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dexter.1.0.3.nupkg.sha512",
+        "dexter.nuspec",
+        "lib/monoandroid81/EDMTBinding.dll"
+      ]
+    },
+    "Plugin.CurrentActivity/2.1.0.4": {
+      "sha512": "m8xaXvXUzBSqP6xRe5PeIG347WxsG/VWrZta7MnPpSvNuPf0RLB/S49UCCQyBKSsfu053+apvYm14BC7GU6Zzg==",
+      "type": "package",
+      "path": "plugin.currentactivity/2.1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/Plugin.CurrentActivity.dll",
+        "lib/monoandroid44/Plugin.CurrentActivity.xml",
+        "plugin.currentactivity.2.1.0.4.nupkg.sha512",
+        "plugin.currentactivity.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Xam.Plugin.DeviceInfo/4.1.1": {
+      "sha512": "tBoWE60pwlUDK9f+X3CeFBVTpU+OuMel8Hfp7bxYnJKiGGQ2I3S+8ZF1lJSxvlQf0o8C/IjGnddUeDqwBmWZfg==",
+      "type": "package",
+      "path": "xam.plugin.deviceinfo/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/Plugin.DeviceInfo.dll",
+        "lib/monoandroid71/Plugin.DeviceInfo.dll.mdb",
+        "lib/monoandroid71/Plugin.DeviceInfo.pdb",
+        "lib/net45/Plugin.DeviceInfo.dll",
+        "lib/net45/Plugin.DeviceInfo.pdb",
+        "lib/netstandard1.0/Plugin.DeviceInfo.dll",
+        "lib/netstandard1.0/Plugin.DeviceInfo.pdb",
+        "lib/netstandard2.0/Plugin.DeviceInfo.dll",
+        "lib/netstandard2.0/Plugin.DeviceInfo.pdb",
+        "lib/tizen40/Plugin.DeviceInfo.dll",
+        "lib/tizen40/Plugin.DeviceInfo.pdb",
+        "lib/uap10.0.16299/Plugin.DeviceInfo.dll",
+        "lib/uap10.0.16299/Plugin.DeviceInfo.pdb",
+        "lib/uap10.0.16299/Plugin.DeviceInfo.pri",
+        "lib/xamarinios10/Plugin.DeviceInfo.dll",
+        "lib/xamarinios10/Plugin.DeviceInfo.pdb",
+        "lib/xamarinmac20/Plugin.DeviceInfo.dll",
+        "lib/xamarinmac20/Plugin.DeviceInfo.pdb",
+        "lib/xamarintvos10/Plugin.DeviceInfo.dll",
+        "lib/xamarintvos10/Plugin.DeviceInfo.pdb",
+        "lib/xamarinwatchos10/Plugin.DeviceInfo.dll",
+        "lib/xamarinwatchos10/Plugin.DeviceInfo.pdb",
+        "readme.txt",
+        "xam.plugin.deviceinfo.4.1.1.nupkg.sha512",
+        "xam.plugin.deviceinfo.nuspec"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
       "sha512": "ss+hnEoFeyxLgHk3TrCBqTMkK6ZJqhq382AONzdVGg7cyVibvBMWPX2Xp5byB8tvRJOMRIWZnqyqgpYQIagkZA==",
       "type": "package",
@@ -2034,6 +2204,46 @@
         "lib/monoandroid90/Xamarin.Android.Support.DrawerLayout.dll",
         "xamarin.android.support.drawerlayout.28.0.0.3.nupkg.sha512",
         "xamarin.android.support.drawerlayout.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Emoji/28.0.0.3": {
+      "sha512": "TbX14L85QYYHbJqScBmFNfyn5RisoWWA+UHul9KFfDVTMYlIpJv51jzH5Js1GrDsAvRAEicgR5XCRQ9JWL8bDw==",
+      "type": "package",
+      "path": "xamarin.android.support.emoji/28.0.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/monoandroid80/Xamarin.Android.Support.Emoji.targets",
+        "build/monoandroid81/Xamarin.Android.Support.Emoji.targets",
+        "build/monoandroid90/Xamarin.Android.Support.Emoji.targets",
+        "lib/monoandroid60/_._",
+        "lib/monoandroid70/_._",
+        "lib/monoandroid71/_._",
+        "lib/monoandroid80/Xamarin.Android.Support.Emoji.dll",
+        "lib/monoandroid81/Xamarin.Android.Support.Emoji.dll",
+        "lib/monoandroid90/Xamarin.Android.Support.Emoji.dll",
+        "xamarin.android.support.emoji.28.0.0.3.nupkg.sha512",
+        "xamarin.android.support.emoji.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Emoji.AppCompat/28.0.0.3": {
+      "sha512": "PU+FRhfIeqji7sy+zZCAZhq7lMZUg/dPaBnQtKHShXLWTrd6X2lILTimhHprsfeiz3OkuBRiO9SeS0c4nC0Zgg==",
+      "type": "package",
+      "path": "xamarin.android.support.emoji.appcompat/28.0.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/monoandroid80/Xamarin.Android.Support.Emoji.AppCompat.targets",
+        "build/monoandroid81/Xamarin.Android.Support.Emoji.AppCompat.targets",
+        "build/monoandroid90/Xamarin.Android.Support.Emoji.AppCompat.targets",
+        "lib/monoandroid60/_._",
+        "lib/monoandroid70/_._",
+        "lib/monoandroid71/_._",
+        "lib/monoandroid80/Xamarin.Android.Support.Emoji.AppCompat.dll",
+        "lib/monoandroid81/Xamarin.Android.Support.Emoji.AppCompat.dll",
+        "lib/monoandroid90/Xamarin.Android.Support.Emoji.AppCompat.dll",
+        "xamarin.android.support.emoji.appcompat.28.0.0.3.nupkg.sha512",
+        "xamarin.android.support.emoji.appcompat.nuspec"
       ]
     },
     "Xamarin.Android.Support.Fragment/28.0.0.3": {
@@ -2631,6 +2841,40 @@
         "xamarin.androidx.drawerlayout.nuspec"
       ]
     },
+    "Xamarin.AndroidX.Emoji/1.1.0": {
+      "sha512": "8qutNjbyLRuuaRPXaDicCHGZxVhIaTR1n06jvC6r337z2mCYwEVGr+66pI3Gyt7e1MYqqJcrUtW1bXCpSniciw==",
+      "type": "package",
+      "path": "xamarin.androidx.emoji/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "aar/androidx.emoji.emoji.aar",
+        "build/monoandroid90/Xamarin.AndroidX.Emoji.targets",
+        "buildTransitive/monoandroid90/Xamarin.AndroidX.Emoji.targets",
+        "lib/monoandroid90/Xamarin.AndroidX.Emoji.dll",
+        "lib/monoandroid90/Xamarin.AndroidX.Emoji.pdb",
+        "xamarin.androidx.emoji.1.1.0.nupkg.sha512",
+        "xamarin.androidx.emoji.nuspec"
+      ]
+    },
+    "Xamarin.AndroidX.Emoji.AppCompat/1.1.0": {
+      "sha512": "7XgBnUhFbLAYhBXzrZOBw+sPYHApo26IUngWreSxRagivyUA9iQqJNf+U9HMmkOzx9y5y2sOLc/4eVWugils6Q==",
+      "type": "package",
+      "path": "xamarin.androidx.emoji.appcompat/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "aar/androidx.emoji.emoji-appcompat.aar",
+        "build/monoandroid90/Xamarin.AndroidX.Emoji.AppCompat.targets",
+        "buildTransitive/monoandroid90/Xamarin.AndroidX.Emoji.AppCompat.targets",
+        "lib/monoandroid90/Xamarin.AndroidX.Emoji.AppCompat.dll",
+        "lib/monoandroid90/Xamarin.AndroidX.Emoji.AppCompat.pdb",
+        "xamarin.androidx.emoji.appcompat.1.1.0.nupkg.sha512",
+        "xamarin.androidx.emoji.appcompat.nuspec"
+      ]
+    },
     "Xamarin.AndroidX.Fragment/1.2.5.3": {
       "sha512": "YaotcpTr9iUA7Qw0HIqEHCZuBF3mfxpV7thM4JMipOBy/llHVBrS92ZjEJZBMNxXG0uSTqCit5gFPuLdJKeVCg==",
       "type": "package",
@@ -3181,11 +3425,15 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
+      "Dexter >= 1.0.3",
+      "Xam.Plugin.DeviceInfo >= 4.1.1",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.3",
       "Xamarin.Android.Support.CustomTabs >= 28.0.0.3",
       "Xamarin.Android.Support.Design >= 28.0.0.3",
+      "Xamarin.Android.Support.Emoji.AppCompat >= 28.0.0.3",
       "Xamarin.AndroidX.Browser >= 1.2.0.2",
       "Xamarin.AndroidX.ConstraintLayout >= 2.0.4",
+      "Xamarin.AndroidX.Emoji.AppCompat >= 1.1.0",
       "Xamarin.AndroidX.Legacy.Support.Core.UI >= 1.0.0.6",
       "Xamarin.AndroidX.Lifecycle.LiveData >= 2.2.0.3",
       "Xamarin.Essentials >= 1.5.3.2",
@@ -3199,11 +3447,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
+      "projectUniqueName": "C:\\Projetos\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
       "projectName": "Gbot_XamarinAndroid",
-      "projectPath": "C:\\Projetos\\gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
+      "projectPath": "C:\\Projetos\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
       "packagesPath": "C:\\Users\\marcosGuibson\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\gbot_XamarinAndroid\\obj\\",
+      "outputPath": "C:\\Projetos\\Gbot_XamarinAndroid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3230,6 +3478,14 @@
     "frameworks": {
       "monoandroid90": {
         "dependencies": {
+          "Dexter": {
+            "target": "Package",
+            "version": "[1.0.3, )"
+          },
+          "Xam.Plugin.DeviceInfo": {
+            "target": "Package",
+            "version": "[4.1.1, )"
+          },
           "Xamarin.Android.Support.Core.Utils": {
             "target": "Package",
             "version": "[28.0.0.3, )"
@@ -3242,6 +3498,10 @@
             "target": "Package",
             "version": "[28.0.0.3, )"
           },
+          "Xamarin.Android.Support.Emoji.AppCompat": {
+            "target": "Package",
+            "version": "[28.0.0.3, )"
+          },
           "Xamarin.AndroidX.Browser": {
             "target": "Package",
             "version": "[1.2.0.2, )"
@@ -3249,6 +3509,10 @@
           "Xamarin.AndroidX.ConstraintLayout": {
             "target": "Package",
             "version": "[2.0.4, )"
+          },
+          "Xamarin.AndroidX.Emoji.AppCompat": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           },
           "Xamarin.AndroidX.Legacy.Support.Core.UI": {
             "target": "Package",

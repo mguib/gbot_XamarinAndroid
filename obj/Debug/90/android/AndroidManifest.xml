@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.gbot_xamarinandroid" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
+  <uses-sdk android:minSdkVersion="22" android:targetSdkVersion="28" />
+  <uses-sdk android:minSdkVersion="10" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+  <uses-permission android:name="android.permission.NFC" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-feature android:name="android.hardware.nfc" android:required="true" />
+  <uses-feature android:name="android.hardware.usb.host" />
+  <application android:name="android.app.Application" android:allowBackup="true" android:allowClearUserData="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
     <activity android:name="crc6465a5917ae8db7f3d.MainActivity" android:label="@string/app_name" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -19,6 +25,7 @@
     <activity android:name="crc64787ad53d6e92e92d.Ferramentas" android:label="Ferramentas" />
     <activity android:name="crc64787ad53d6e92e92d.Rede" android:label="Rede" />
     <activity android:name="crc64787ad53d6e92e92d.Teste" android:label="Teste" />
+    <activity android:name="crc64843e59ea06e0fd6f.MenuNFC" android:label="MenuNFC" />
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
     <receiver android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" />
     <receiver android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" />
@@ -34,5 +41,12 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.gbot_xamarinandroid" />
       </intent-filter>
     </receiver>
+    <activity android:name="com.karumi.dexter.DexterActivity" android:theme="@style/Dexter.Internal.Theme.Transparent" />
+    <activity android:name="com.phi.gertec.sat.satger.SatGerConnectionManager" android:label="SatGer">
+      <intent-filter>
+        <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+      </intent-filter>
+      <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" android:resource="@xml/device_filter" />
+    </activity>
   </application>
 </manifest>

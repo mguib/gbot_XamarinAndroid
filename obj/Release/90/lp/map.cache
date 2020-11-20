@@ -117,3 +117,11 @@ androidx.asynclayoutinflater.asynclayoutinflater
 androidx.legacy.legacy-support-core-ui
 androidx.constraintlayout.constraintlayout
 androidx.browser.browser
+SatLib
+EDMTBinding
+Plugin.CurrentActivity
+Plugin.DeviceInfo
+Xamarin.AndroidX.Emoji.AppCompat
+Xamarin.AndroidX.Emoji
+androidx.emoji.emoji
+androidx.emoji.emoji-appcompat

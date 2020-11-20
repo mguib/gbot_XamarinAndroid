@@ -1,3 +1,7 @@
+EDMTBinding
+Plugin.CurrentActivity
+Plugin.DeviceInfo
+SatLib
 Xamarin.AndroidX.Activity
 Xamarin.AndroidX.Annotation
 Xamarin.AndroidX.AppCompat.AppCompatResources
@@ -16,6 +20,8 @@ Xamarin.AndroidX.CursorAdapter
 Xamarin.AndroidX.CustomView
 Xamarin.AndroidX.DocumentFile
 Xamarin.AndroidX.DrawerLayout
+Xamarin.AndroidX.Emoji.AppCompat
+Xamarin.AndroidX.Emoji
 Xamarin.AndroidX.Fragment
 Xamarin.AndroidX.Interpolator
 Xamarin.AndroidX.Legacy.Support.Core.UI
@@ -78,5 +84,7 @@ androidx.documentfile.documentfile
 androidx.legacy.legacy-support-core-utils
 androidx.asynclayoutinflater.asynclayoutinflater
 androidx.legacy.legacy-support-core-ui
+androidx.emoji.emoji
+androidx.emoji.emoji-appcompat
 androidx.constraintlayout.constraintlayout
 androidx.browser.browser

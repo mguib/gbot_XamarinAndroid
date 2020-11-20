@@ -6,6 +6,7 @@ using Android.Widget;
 using Android.Content;
 using Gbot_XamarinAndroid.SAT;
 using System;
+using Gbot_XamarinAndroid.NFC;
 
 namespace Gbot_XamarinAndroid
 {
@@ -66,7 +67,7 @@ namespace Gbot_XamarinAndroid
                     //GoToActivity(typeof(CodBarras));
                     break;
                 case "NFC - NDEF":
-                    //GoToActivity(typeof(CodBarrasV2));
+                    GoToActivity(typeof(MenuNFC));
                     break;
                 case "FALA G-Bot":
                     //GoToActivity(typeof(Impressora));

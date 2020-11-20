@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.gbot_xamarinandroid">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
+  <uses-sdk android:minSdkVersion="22" android:targetSdkVersion="28" />
+  <uses-sdk android:minSdkVersion="10" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.NFC" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-feature android:name="android.hardware.nfc" android:required="true" />
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
     <activity android:label="@string/app_name" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="crc6465a5917ae8db7f3d.MainActivity">
       <intent-filter>
@@ -19,6 +24,7 @@
     <activity android:label="Ferramentas" android:name="crc64787ad53d6e92e92d.Ferramentas" />
     <activity android:label="Rede" android:name="crc64787ad53d6e92e92d.Rede" />
     <activity android:label="Teste" android:name="crc64787ad53d6e92e92d.Teste" />
+    <activity android:label="MenuNFC" android:name="crc64843e59ea06e0fd6f.MenuNFC" />
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" />

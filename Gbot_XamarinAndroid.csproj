@@ -59,21 +59,31 @@
     <Reference Include="Mono.Android" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors" />
+    <Reference Include="SatLib">
+      <HintPath>SatLib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="MyHolder.cs" />
+    <Compile Include="NFC\MenuNFC.cs" />
     <Compile Include="Projeto.cs" />
     <Compile Include="ProjetoAdapter.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SAT\GlobalValues.cs" />
     <Compile Include="SAT\MenuSat.cs" />
     <Compile Include="SAT\SatPages\Alterar.cs" />
     <Compile Include="SAT\SatPages\Associar.cs" />
     <Compile Include="SAT\SatPages\Ativacao.cs" />
     <Compile Include="SAT\SatPages\Ferramentas.cs" />
+    <Compile Include="SAT\SatPages\Mask.cs" />
     <Compile Include="SAT\SatPages\Rede.cs" />
     <Compile Include="SAT\SatPages\Teste.cs" />
+    <Compile Include="SAT\ServiceSAT\OperacaoSat.cs" />
+    <Compile Include="SAT\ServiceSAT\RetornoSat.cs" />
+    <Compile Include="SAT\ServiceSAT\SatFunctions.cs" />
+    <Compile Include="SAT\ServiceSAT\Utils.cs" />
     <Compile Include="TEF\Tef.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -111,14 +121,22 @@
     <Folder Include="Barcode\" />
     <Folder Include="Fala\" />
     <Folder Include="KioskMode\" />
-    <Folder Include="NFC\" />
-    <Folder Include="SAT\ServiceSAT\" />
     <Folder Include="Sensor\" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Dexter">
+      <Version>1.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugin.DeviceInfo">
+      <Version>4.1.1</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.AndroidX.Emoji.AppCompat" Version="1.1.0" />
+    <PackageReference Include="Xamarin.Android.Support.Emoji.AppCompat">
+      <Version>28.0.0.3</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.Browser">
       <Version>1.2.0.2</Version>
     </PackageReference>
@@ -232,6 +250,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\teste.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\menuNFC.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
