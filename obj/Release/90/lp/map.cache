@@ -125,3 +125,7 @@ Xamarin.AndroidX.Emoji.AppCompat
 Xamarin.AndroidX.Emoji
 androidx.emoji.emoji
 androidx.emoji.emoji-appcompat
+GPOS700
+Google.ZXing.Core
+ZXingBinding
+zxing.monoandroid

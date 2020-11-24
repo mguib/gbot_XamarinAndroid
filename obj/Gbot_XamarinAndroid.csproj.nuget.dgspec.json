@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj": {}
+    "C:\\Projetos\\gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj": {
+    "C:\\Projetos\\gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
+        "projectUniqueName": "C:\\Projetos\\gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
         "projectName": "Gbot_XamarinAndroid",
-        "projectPath": "C:\\Projetos\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
+        "projectPath": "C:\\Projetos\\gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
         "packagesPath": "C:\\Users\\marcosGuibson\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Gbot_XamarinAndroid\\obj\\",
+        "outputPath": "C:\\Projetos\\gbot_XamarinAndroid\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -41,6 +41,18 @@
             "Dexter": {
               "target": "Package",
               "version": "[1.0.3, )"
+            },
+            "Json.Net": {
+              "target": "Package",
+              "version": "[1.0.23, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Reflection.Metadata": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Xam.Plugin.DeviceInfo": {
               "target": "Package",
@@ -89,6 +101,18 @@
             "Xamarin.Google.Android.Material": {
               "target": "Package",
               "version": "[1.1.0.5, )"
+            },
+            "Xamarin.Google.ZXing.Core": {
+              "target": "Package",
+              "version": "[3.3.3, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.5, )"
+            },
+            "ZXing.XamarinAndroid": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           }
         }

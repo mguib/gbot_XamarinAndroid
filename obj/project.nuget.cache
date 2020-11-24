@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "c1O9kToJjfyoLoLprD1OcIwrVV0oCyfHkNwEqS9NBRgHalbh8CUw6BEowzMn6xGC3JjYSpftwqMJpJzfzLGaqQ==",
+  "dgSpecHash": "CgsuC57v0IxALHI5hdn7lpVhsnRjbQAS7zErzeoZJ3H6woIU0ktNKsAOE3AGLGd0EhAvPwhSTbUctz69HUDurQ==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
+  "projectFilePath": "C:\\Projetos\\gbot_XamarinAndroid\\Gbot_XamarinAndroid.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcosGuibson\\.nuget\\packages\\dexter\\1.0.3\\dexter.1.0.3.nupkg.sha512",
+    "C:\\Users\\marcosGuibson\\.nuget\\packages\\json.net\\1.0.23\\json.net.1.0.23.nupkg.sha512",
+    "C:\\Users\\marcosGuibson\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\marcosGuibson\\.nuget\\packages\\plugin.currentactivity\\2.1.0.4\\plugin.currentactivity.2.1.0.4.nupkg.sha512",
+    "C:\\Users\\marcosGuibson\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\marcosGuibson\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
     "C:\\Users\\marcosGuibson\\.nuget\\packages\\xam.plugin.deviceinfo\\4.1.1\\xam.plugin.deviceinfo.4.1.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
@@ -91,7 +95,10 @@
     "C:\\Users\\marcosGuibson\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.7\\xamarin.androidx.viewpager2.1.0.0.7.nupkg.sha512",
     "C:\\Users\\marcosGuibson\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\marcosGuibson\\.nuget\\packages\\xamarin.google.android.material\\1.1.0.5\\xamarin.google.android.material.1.1.0.5.nupkg.sha512",
-    "C:\\Users\\marcosGuibson\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
+    "C:\\Users\\marcosGuibson\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\marcosGuibson\\.nuget\\packages\\xamarin.google.zxing.core\\3.3.3\\xamarin.google.zxing.core.3.3.3.nupkg.sha512",
+    "C:\\Users\\marcosGuibson\\.nuget\\packages\\zxing.net\\0.16.5\\zxing.net.0.16.5.nupkg.sha512",
+    "C:\\Users\\marcosGuibson\\.nuget\\packages\\zxing.xamarinandroid\\1.0.0\\zxing.xamarinandroid.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

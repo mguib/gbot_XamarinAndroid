@@ -4,9 +4,15 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Gbot_XamarinAndroid.dll" comes first in this list. */
 		"Gbot_XamarinAndroid.dll",
 		"EDMTBinding.dll",
+		"Google.ZXing.Core.dll",
+		"GPOS700.dll",
+		"Json.Net.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.DeviceInfo.dll",
 		"SatLib.dll",
+		"System.Collections.Immutable.dll",
+		"System.Reflection.Metadata.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -91,6 +97,8 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Essentials.dll",
 		"Xamarin.Google.Android.Material.dll",
 		"Xamarin.Google.Guava.ListenableFuture.dll",
+		"zxing.monoandroid.dll",
+		"ZXingBinding.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

@@ -1,4 +1,6 @@
 EDMTBinding
+Google.ZXing.Core
+GPOS700
 Plugin.CurrentActivity
 Plugin.DeviceInfo
 SatLib
@@ -49,6 +51,8 @@ Xamarin.AndroidX.ViewPager2
 Xamarin.Essentials
 Xamarin.Google.Android.Material
 Xamarin.Google.Guava.ListenableFuture
+zxing.monoandroid
+ZXingBinding
 androidx.versionedparcelable.versionedparcelable
 androidx.lifecycle.lifecycle-runtime
 androidx.core.core

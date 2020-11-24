@@ -7,6 +7,7 @@ using Android.Content;
 using Gbot_XamarinAndroid.SAT;
 using System;
 using Gbot_XamarinAndroid.NFC;
+using Gbot_XamarinAndroid.TEF;
 
 namespace Gbot_XamarinAndroid
 {
@@ -73,7 +74,7 @@ namespace Gbot_XamarinAndroid
                     //GoToActivity(typeof(Impressora));
                     break;
                 case "Tef":
-                    //GoToActivity(typeof(Nfc));
+                    GoToActivity(typeof(Tef));
                     break;
                 case "SAT":
                     GoToActivity(typeof(MenuSat));
